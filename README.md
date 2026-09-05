@@ -76,6 +76,3 @@ If your training script is different, replace `main.py` with the actual file nam
 
 If this code supports a paper/preprint, please add citation details here.
 
-## License
-
-Please add your preferred license (e.g., MIT, Apache-2.0).
