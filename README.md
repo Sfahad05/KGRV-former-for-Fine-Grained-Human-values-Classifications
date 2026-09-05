@@ -8,7 +8,7 @@ KGRV-former is designed to classify text into fine-grained human value categorie
 
 ## Repository Structure
 
-- `model` script(s): core implementation for training and inference
+- `KGRV-former-model` script(s): core implementation for training and inference
 - `requirment.tex`: replication environment specification (LaTeX)
 
 > If your main model file has a specific name (for example `train.py`, `model.py`, or `main.py`), replace mentions of “model script” below with that filename.
