@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+
+\title{Replication Environment Requirements}
+\author{KGRV-former for Fine-Grained Human Values Classification}
+\date{}
+
+\begin{document}
+\maketitle
+
+This document specifies the hardware and software environment used for replication of the study.
+
+\section*{System Configuration}
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Component} & \textbf{Specification} \\
+\midrule
+Operating system & Ubuntu 22.04 \\
+Python & 3.12 \\
+PyTorch & 2.5.1 \\
+CUDA & 12.4 \\
+GPU & NVIDIA RTX 4090, 24 GB \\
+CPU & Intel Xeon Gold 6430 \\
+System memory & 120 GB \\
+\bottomrule
+\end{tabular}
+\caption{Hardware and software stack used in experiments.}
+\end{table}
+
+\section*{Notes}
+\begin{itemize}
+  \item For best reproducibility, use exact package versions and CUDA compatibility with the installed PyTorch build.
+  \item Ensure NVIDIA drivers are compatible with CUDA 12.4.
+  \item Record random seeds and dataset split versions during training/evaluation.
+\end{itemize}
+
+\end{document}
