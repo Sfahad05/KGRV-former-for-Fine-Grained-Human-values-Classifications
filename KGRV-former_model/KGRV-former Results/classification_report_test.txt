@@ -1,0 +1,16 @@
+                precision    recall  f1-score   support
+
+self direction     0.8690    0.9065    0.8873       417
+   stimulation     0.8466    0.8679    0.8571       159
+      hedonism     0.7653    0.7794    0.7723       272
+   achievement     0.7529    0.6737    0.7111        95
+         power     0.8409    0.8605    0.8506        43
+      security     0.8430    0.8160    0.8293       125
+    conformity     0.6823    0.6518    0.6667       313
+     tradition     1.0000    0.7000    0.8235        10
+   benevolence     0.7054    0.7215    0.7133       219
+  universalism     1.0000    0.8889    0.9412        18
+
+      accuracy                         0.7876      1671
+     macro avg     0.8305    0.7866    0.8052      1671
+  weighted avg     0.7865    0.7876    0.7865      1671

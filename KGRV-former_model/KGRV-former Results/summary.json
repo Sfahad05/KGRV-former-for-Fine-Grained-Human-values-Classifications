@@ -1,0 +1,273 @@
+{
+  "experiment_name": "KGRV-former",
+  "selected_lr": 5e-05,
+  "selected_search_config": {
+    "lr": 5e-05,
+    "weight_decay": 0.010984,
+    "dropout": 0.084418,
+    "gat_dropout": 0.270805,
+    "contrastive_weight": 0.046682,
+    "value_reg_weight": 0.024336,
+    "graph_mix_init": 0.117678,
+    "fgm_eps": 0.204652,
+    "logit_scale_init": 11.707882
+  },
+  "search_strategy": "fixed_previous_pso_config_no_search",
+  "cv_mean_macro_f1": 0.7896839029274976,
+  "cv_std_macro_f1": 0.008345725275190228,
+  "selection_summary": {
+    "best_epoch": 8,
+    "best_macro_f1": 0.806680399837808,
+    "best_weighted_f1": 0.7864630677000022,
+    "best_accuracy": 0.7867698803659395
+  },
+  "val_metrics": {
+    "accuracy": 0.7867698803659395,
+    "macro_f1": 0.806680399837808,
+    "weighted_f1": 0.7864630677000022,
+    "loss": 0.294952099703336
+  },
+  "test_metrics": {
+    "accuracy": 0.7875523638539796,
+    "macro_f1": 0.8052425047589992,
+    "weighted_f1": 0.7864857342183953,
+    "loss": 0.2868599631961738
+  },
+  "test_metrics_final": {
+    "accuracy": 0.7875523638539796,
+    "macro_f1": 0.8052425047589992,
+    "weighted_f1": 0.7864857342183953,
+    "loss": 0.2868599631961738
+  },
+  "label_order": [
+    "self_direction",
+    "stimulation",
+    "hedonism",
+    "achievement",
+    "power",
+    "security",
+    "conformity",
+    "tradition",
+    "benevolence",
+    "universalism"
+  ],
+  "display_labels": [
+    "self direction",
+    "stimulation",
+    "hedonism",
+    "achievement",
+    "power",
+    "security",
+    "conformity",
+    "tradition",
+    "benevolence",
+    "universalism"
+  ],
+  "lr_results": [
+    {
+      "method": "fixed_previous_pso_config",
+      "note": "PSO search skipped; configuration loaded from previous best PSO run.",
+      "candidate_config": {
+        "lr": 5e-05,
+        "weight_decay": 0.010984,
+        "dropout": 0.084418,
+        "gat_dropout": 0.270805,
+        "contrastive_weight": 0.046682,
+        "value_reg_weight": 0.024336,
+        "graph_mix_init": 0.117678,
+        "fgm_eps": 0.204652,
+        "logit_scale_init": 11.707882
+      }
+    }
+  ],
+  "resampling": {
+    "selection_augmentation": {
+      "mode": "hybrid_weighted_sampler_plus_synthetic_text",
+      "median_count": 683,
+      "trigger_threshold": 205,
+      "classes": {
+        "self_direction": {
+          "original": 2006,
+          "target": 2006,
+          "synthetic_added": 0
+        },
+        "stimulation": {
+          "original": 767,
+          "target": 767,
+          "synthetic_added": 0
+        },
+        "hedonism": {
+          "original": 1310,
+          "target": 1310,
+          "synthetic_added": 0
+        },
+        "achievement": {
+          "original": 457,
+          "target": 457,
+          "synthetic_added": 0
+        },
+        "power": {
+          "original": 210,
+          "target": 210,
+          "synthetic_added": 0
+        },
+        "security": {
+          "original": 599,
+          "target": 599,
+          "synthetic_added": 0
+        },
+        "conformity": {
+          "original": 1510,
+          "target": 1510,
+          "synthetic_added": 0
+        },
+        "tradition": {
+          "original": 47,
+          "target": 59,
+          "synthetic_added": 12
+        },
+        "benevolence": {
+          "original": 1056,
+          "target": 1056,
+          "synthetic_added": 0
+        },
+        "universalism": {
+          "original": 86,
+          "target": 108,
+          "synthetic_added": 22
+        }
+      }
+    },
+    "final_augmentation": {
+      "mode": "hybrid_weighted_sampler_plus_synthetic_text",
+      "median_count": 803,
+      "trigger_threshold": 241,
+      "classes": {
+        "self_direction": {
+          "original": 2360,
+          "target": 2360,
+          "synthetic_added": 0
+        },
+        "stimulation": {
+          "original": 902,
+          "target": 902,
+          "synthetic_added": 0
+        },
+        "hedonism": {
+          "original": 1541,
+          "target": 1541,
+          "synthetic_added": 0
+        },
+        "achievement": {
+          "original": 538,
+          "target": 538,
+          "synthetic_added": 0
+        },
+        "power": {
+          "original": 247,
+          "target": 247,
+          "synthetic_added": 0
+        },
+        "security": {
+          "original": 705,
+          "target": 705,
+          "synthetic_added": 0
+        },
+        "conformity": {
+          "original": 1777,
+          "target": 1777,
+          "synthetic_added": 0
+        },
+        "tradition": {
+          "original": 55,
+          "target": 69,
+          "synthetic_added": 14
+        },
+        "benevolence": {
+          "original": 1243,
+          "target": 1243,
+          "synthetic_added": 0
+        },
+        "universalism": {
+          "original": 101,
+          "target": 127,
+          "synthetic_added": 26
+        }
+      }
+    },
+    "weighted_sampler": true
+  },
+  "changes": {
+    "architecture": "BERT + semantic Schwartz prototypes + label-wise evidence attention + soft higher-order Schwartz auxiliary head + relation-biased label Graph Transformer",
+    "pooling": "learnable last-4-layer masked-mean token mixing",
+    "graph": "dense Schwartz relation-biased label Graph Transformer with learned attention bias for self, compatible, same higher-order, opposing, empirical-confusion, and neutral relations",
+    "fusion": "gated residual relation-transformer node update + node logits mixed with direct semantic prototype-classifier logits",
+    "value_regularizer": {
+      "method": "target_similarity_matrix",
+      "weight": 0.024336,
+      "hard_targets": {
+        "conformity__benevolence": -0.05,
+        "conformity__hedonism": -0.15,
+        "benevolence__hedonism": 0.0,
+        "conformity__security": 0.15,
+        "conformity__tradition": 0.15
+      }
+    },
+    "confusion_margin_loss": {
+      "enabled": false,
+      "weight": 0.0,
+      "margin": 0.5,
+      "hard_negative_map": {
+        "conformity": [
+          "benevolence",
+          "hedonism"
+        ],
+        "benevolence": [
+          "conformity"
+        ],
+        "hedonism": [
+          "conformity"
+        ]
+      }
+    },
+    "hard_triad_sampler": {
+      "enabled": false,
+      "hard_triad_classes": [
+        "hedonism",
+        "conformity",
+        "benevolence"
+      ],
+      "triad_boost": 1.0,
+      "conformity_boost": 1.0
+    },
+    "fgm": {
+      "enabled": true,
+      "epsilon": 0.204652,
+      "embedding_name": "word_embeddings"
+    },
+    "final_retraining": {
+      "best_epoch": 8,
+      "final_epochs": 8,
+      "epoch_buffer": 0,
+      "min_epochs": 8
+    },
+    "true_final_retraining_on_all_X_tr": true,
+    "kfold_used": true,
+    "search_integration": "PSO search skipped; previously selected best PSO configuration applied directly",
+    "step98_architecture_flags": {
+      "semantic_label_prototypes": true,
+      "labelwise_cross_attention": true,
+      "higher_order_aux_head": true,
+      "semantic_proto_mix_init": 0.35,
+      "labelwise_mix_init": 0.2,
+      "higher_aux_weight": 0.12,
+      "higher_logit_mix": 0.08,
+      "relation_graph_transformer": true,
+      "relation_num_layers": 2,
+      "relation_num_heads": 4,
+      "relation_dropout": 0.15,
+      "sample_dynamic_fusion": true,
+      "dynamic_fusion_channels": 5
+    }
+  }
+}

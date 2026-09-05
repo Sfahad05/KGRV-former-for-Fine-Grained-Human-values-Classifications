@@ -1,0 +1,584 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "best_summary": {
+        "best_epoch": 4,
+        "best_macro_f1": 0.7784451847738728,
+        "best_weighted_f1": 0.7613182458786466,
+        "best_accuracy": 0.7608236536430835
+      },
+      "augmentation": {
+        "mode": "hybrid_weighted_sampler_plus_synthetic_text",
+        "median_count": 643,
+        "trigger_threshold": 193,
+        "classes": {
+          "self_direction": {
+            "original": 1888,
+            "target": 1888,
+            "synthetic_added": 0
+          },
+          "stimulation": {
+            "original": 722,
+            "target": 722,
+            "synthetic_added": 0
+          },
+          "hedonism": {
+            "original": 1233,
+            "target": 1233,
+            "synthetic_added": 0
+          },
+          "achievement": {
+            "original": 430,
+            "target": 430,
+            "synthetic_added": 0
+          },
+          "power": {
+            "original": 198,
+            "target": 198,
+            "synthetic_added": 0
+          },
+          "security": {
+            "original": 564,
+            "target": 564,
+            "synthetic_added": 0
+          },
+          "conformity": {
+            "original": 1421,
+            "target": 1421,
+            "synthetic_added": 0
+          },
+          "tradition": {
+            "original": 44,
+            "target": 55,
+            "synthetic_added": 11
+          },
+          "benevolence": {
+            "original": 994,
+            "target": 994,
+            "synthetic_added": 0
+          },
+          "universalism": {
+            "original": 81,
+            "target": 102,
+            "synthetic_added": 21
+          }
+        }
+      },
+      "history": [
+        {
+          "accuracy": 0.665258711721225,
+          "macro_f1": 0.6956959605213487,
+          "weighted_f1": 0.6628601087254196,
+          "loss": 0.3357121170447345
+        },
+        {
+          "accuracy": 0.7275607180570222,
+          "macro_f1": 0.7378333531628395,
+          "weighted_f1": 0.7249070810003194,
+          "loss": 0.2905205903802743
+        },
+        {
+          "accuracy": 0.7576557550158395,
+          "macro_f1": 0.7746082213591785,
+          "weighted_f1": 0.7530259694216855,
+          "loss": 0.30284525749552604
+        },
+        {
+          "accuracy": 0.7608236536430835,
+          "macro_f1": 0.7784451847738728,
+          "weighted_f1": 0.7613182458786466,
+          "loss": 0.29692932485528134
+        },
+        {
+          "accuracy": 0.7639915522703273,
+          "macro_f1": 0.7680534730157527,
+          "weighted_f1": 0.759256809437832,
+          "loss": 0.2996499717298439
+        },
+        {
+          "accuracy": 0.7666314677930306,
+          "macro_f1": 0.7754333359261204,
+          "weighted_f1": 0.7635260376138213,
+          "loss": 0.310116829059798
+        },
+        {
+          "accuracy": 0.76610348468849,
+          "macro_f1": 0.7771369659706899,
+          "weighted_f1": 0.7637083139779489,
+          "loss": 0.30842549246952
+        },
+        {
+          "accuracy": 0.7697993664202746,
+          "macro_f1": 0.7710175226971459,
+          "weighted_f1": 0.7664610358804955,
+          "loss": 0.3134285867968692
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "best_summary": {
+        "best_epoch": 3,
+        "best_macro_f1": 0.7985459513162414,
+        "best_weighted_f1": 0.7617836218042601,
+        "best_accuracy": 0.7634635691657867
+      },
+      "augmentation": {
+        "mode": "hybrid_weighted_sampler_plus_synthetic_text",
+        "median_count": 643,
+        "trigger_threshold": 193,
+        "classes": {
+          "self_direction": {
+            "original": 1888,
+            "target": 1888,
+            "synthetic_added": 0
+          },
+          "stimulation": {
+            "original": 722,
+            "target": 722,
+            "synthetic_added": 0
+          },
+          "hedonism": {
+            "original": 1233,
+            "target": 1233,
+            "synthetic_added": 0
+          },
+          "achievement": {
+            "original": 431,
+            "target": 431,
+            "synthetic_added": 0
+          },
+          "power": {
+            "original": 198,
+            "target": 198,
+            "synthetic_added": 0
+          },
+          "security": {
+            "original": 564,
+            "target": 564,
+            "synthetic_added": 0
+          },
+          "conformity": {
+            "original": 1421,
+            "target": 1421,
+            "synthetic_added": 0
+          },
+          "tradition": {
+            "original": 44,
+            "target": 55,
+            "synthetic_added": 11
+          },
+          "benevolence": {
+            "original": 994,
+            "target": 994,
+            "synthetic_added": 0
+          },
+          "universalism": {
+            "original": 80,
+            "target": 100,
+            "synthetic_added": 20
+          }
+        }
+      },
+      "history": [
+        {
+          "accuracy": 0.6752903907074974,
+          "macro_f1": 0.7169024515447673,
+          "weighted_f1": 0.6569238209253088,
+          "loss": 0.3461102546518865
+        },
+        {
+          "accuracy": 0.7407602956705386,
+          "macro_f1": 0.7693109015201187,
+          "weighted_f1": 0.733726283627587,
+          "loss": 0.29257146508004594
+        },
+        {
+          "accuracy": 0.7634635691657867,
+          "macro_f1": 0.7985459513162414,
+          "weighted_f1": 0.7617836218042601,
+          "loss": 0.2932342059187245
+        },
+        {
+          "accuracy": 0.7576557550158395,
+          "macro_f1": 0.7918666005635437,
+          "weighted_f1": 0.7575899927778132,
+          "loss": 0.28698008784136186
+        },
+        {
+          "accuracy": 0.7581837381203802,
+          "macro_f1": 0.7883297453618333,
+          "weighted_f1": 0.7566601902361427,
+          "loss": 0.30202153136458576
+        },
+        {
+          "accuracy": 0.7729672650475184,
+          "macro_f1": 0.7969655103361998,
+          "weighted_f1": 0.7709684066344381,
+          "loss": 0.28973395723205075
+        },
+        {
+          "accuracy": 0.7697993664202746,
+          "macro_f1": 0.7940283893994501,
+          "weighted_f1": 0.7670386464452935,
+          "loss": 0.30628137375357783
+        },
+        {
+          "accuracy": 0.7729672650475184,
+          "macro_f1": 0.7972630772146225,
+          "weighted_f1": 0.7717798074053596,
+          "loss": 0.3104439466437207
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "best_summary": {
+        "best_epoch": 8,
+        "best_macro_f1": 0.7822350732575557,
+        "best_weighted_f1": 0.781310300959775,
+        "best_accuracy": 0.7835269271383316
+      },
+      "augmentation": {
+        "mode": "hybrid_weighted_sampler_plus_synthetic_text",
+        "median_count": 643,
+        "trigger_threshold": 193,
+        "classes": {
+          "self_direction": {
+            "original": 1888,
+            "target": 1888,
+            "synthetic_added": 0
+          },
+          "stimulation": {
+            "original": 722,
+            "target": 722,
+            "synthetic_added": 0
+          },
+          "hedonism": {
+            "original": 1232,
+            "target": 1232,
+            "synthetic_added": 0
+          },
+          "achievement": {
+            "original": 431,
+            "target": 431,
+            "synthetic_added": 0
+          },
+          "power": {
+            "original": 197,
+            "target": 197,
+            "synthetic_added": 0
+          },
+          "security": {
+            "original": 564,
+            "target": 564,
+            "synthetic_added": 0
+          },
+          "conformity": {
+            "original": 1422,
+            "target": 1422,
+            "synthetic_added": 0
+          },
+          "tradition": {
+            "original": 44,
+            "target": 55,
+            "synthetic_added": 11
+          },
+          "benevolence": {
+            "original": 994,
+            "target": 994,
+            "synthetic_added": 0
+          },
+          "universalism": {
+            "original": 81,
+            "target": 102,
+            "synthetic_added": 21
+          }
+        }
+      },
+      "history": [
+        {
+          "accuracy": 0.6832101372756072,
+          "macro_f1": 0.698839197928163,
+          "weighted_f1": 0.6762372068465993,
+          "loss": 0.3220053857137382
+        },
+        {
+          "accuracy": 0.7344244984160507,
+          "macro_f1": 0.7456560849966597,
+          "weighted_f1": 0.7268631911608584,
+          "loss": 0.29990266096868595
+        },
+        {
+          "accuracy": 0.7544878563885956,
+          "macro_f1": 0.759058063845911,
+          "weighted_f1": 0.7506808042722963,
+          "loss": 0.3100687628494033
+        },
+        {
+          "accuracy": 0.76610348468849,
+          "macro_f1": 0.7750153824612693,
+          "weighted_f1": 0.7638641800769104,
+          "loss": 0.2949916600929534
+        },
+        {
+          "accuracy": 0.7560718057022175,
+          "macro_f1": 0.7713896225702402,
+          "weighted_f1": 0.7562789895589913,
+          "loss": 0.30064843070029207
+        },
+        {
+          "accuracy": 0.7692713833157339,
+          "macro_f1": 0.7747056725257601,
+          "weighted_f1": 0.7651442330246147,
+          "loss": 0.3049840338308097
+        },
+        {
+          "accuracy": 0.7740232312565998,
+          "macro_f1": 0.7776692974167203,
+          "weighted_f1": 0.772655866999922,
+          "loss": 0.2925914581629294
+        },
+        {
+          "accuracy": 0.7835269271383316,
+          "macro_f1": 0.7822350732575557,
+          "weighted_f1": 0.781310300959775,
+          "loss": 0.3007206692505738
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "best_summary": {
+        "best_epoch": 8,
+        "best_macro_f1": 0.7990494990065093,
+        "best_weighted_f1": 0.7721175291497464,
+        "best_accuracy": 0.7724392819429778
+      },
+      "augmentation": {
+        "mode": "hybrid_weighted_sampler_plus_synthetic_text",
+        "median_count": 642,
+        "trigger_threshold": 193,
+        "classes": {
+          "self_direction": {
+            "original": 1888,
+            "target": 1888,
+            "synthetic_added": 0
+          },
+          "stimulation": {
+            "original": 721,
+            "target": 721,
+            "synthetic_added": 0
+          },
+          "hedonism": {
+            "original": 1233,
+            "target": 1233,
+            "synthetic_added": 0
+          },
+          "achievement": {
+            "original": 430,
+            "target": 430,
+            "synthetic_added": 0
+          },
+          "power": {
+            "original": 197,
+            "target": 197,
+            "synthetic_added": 0
+          },
+          "security": {
+            "original": 564,
+            "target": 564,
+            "synthetic_added": 0
+          },
+          "conformity": {
+            "original": 1422,
+            "target": 1422,
+            "synthetic_added": 0
+          },
+          "tradition": {
+            "original": 44,
+            "target": 55,
+            "synthetic_added": 11
+          },
+          "benevolence": {
+            "original": 995,
+            "target": 995,
+            "synthetic_added": 0
+          },
+          "universalism": {
+            "original": 81,
+            "target": 102,
+            "synthetic_added": 21
+          }
+        }
+      },
+      "history": [
+        {
+          "accuracy": 0.67740232312566,
+          "macro_f1": 0.6937006203638311,
+          "weighted_f1": 0.6641705332286493,
+          "loss": 0.3345599335457202
+        },
+        {
+          "accuracy": 0.718585005279831,
+          "macro_f1": 0.7494928175785293,
+          "weighted_f1": 0.718520873686791,
+          "loss": 0.2967508472345046
+        },
+        {
+          "accuracy": 0.7391763463569165,
+          "macro_f1": 0.7684290333933067,
+          "weighted_f1": 0.738892778440859,
+          "loss": 0.31098399289298156
+        },
+        {
+          "accuracy": 0.7576557550158395,
+          "macro_f1": 0.7838207897887829,
+          "weighted_f1": 0.7572926570073886,
+          "loss": 0.2936522572100917
+        },
+        {
+          "accuracy": 0.7639915522703273,
+          "macro_f1": 0.7887590043880067,
+          "weighted_f1": 0.761779553834326,
+          "loss": 0.2967596807308841
+        },
+        {
+          "accuracy": 0.7761351636747624,
+          "macro_f1": 0.7931068429835324,
+          "weighted_f1": 0.7731251287354377,
+          "loss": 0.2912137272142911
+        },
+        {
+          "accuracy": 0.7676874340021119,
+          "macro_f1": 0.795872390238352,
+          "weighted_f1": 0.7682404472233499,
+          "loss": 0.2981602990614714
+        },
+        {
+          "accuracy": 0.7724392819429778,
+          "macro_f1": 0.7990494990065093,
+          "weighted_f1": 0.7721175291497464,
+          "loss": 0.2944083418618526
+        }
+      ]
+    },
+    {
+      "fold": 5,
+      "best_summary": {
+        "best_epoch": 7,
+        "best_macro_f1": 0.7901438062833086,
+        "best_weighted_f1": 0.7654500055788118,
+        "best_accuracy": 0.7675647120972002
+      },
+      "augmentation": {
+        "mode": "hybrid_weighted_sampler_plus_synthetic_text",
+        "median_count": 642,
+        "trigger_threshold": 193,
+        "classes": {
+          "self_direction": {
+            "original": 1888,
+            "target": 1888,
+            "synthetic_added": 0
+          },
+          "stimulation": {
+            "original": 721,
+            "target": 721,
+            "synthetic_added": 0
+          },
+          "hedonism": {
+            "original": 1233,
+            "target": 1233,
+            "synthetic_added": 0
+          },
+          "achievement": {
+            "original": 430,
+            "target": 430,
+            "synthetic_added": 0
+          },
+          "power": {
+            "original": 198,
+            "target": 198,
+            "synthetic_added": 0
+          },
+          "security": {
+            "original": 564,
+            "target": 564,
+            "synthetic_added": 0
+          },
+          "conformity": {
+            "original": 1422,
+            "target": 1422,
+            "synthetic_added": 0
+          },
+          "tradition": {
+            "original": 44,
+            "target": 55,
+            "synthetic_added": 11
+          },
+          "benevolence": {
+            "original": 995,
+            "target": 995,
+            "synthetic_added": 0
+          },
+          "universalism": {
+            "original": 81,
+            "target": 102,
+            "synthetic_added": 21
+          }
+        }
+      },
+      "history": [
+        {
+          "accuracy": 0.6428948758584258,
+          "macro_f1": 0.6868382111009835,
+          "weighted_f1": 0.6425060907011458,
+          "loss": 0.3477888664993053
+        },
+        {
+          "accuracy": 0.7358689910195457,
+          "macro_f1": 0.7491685709140252,
+          "weighted_f1": 0.7334366791639686,
+          "loss": 0.2904339924706185
+        },
+        {
+          "accuracy": 0.722662440570523,
+          "macro_f1": 0.7531819258683046,
+          "weighted_f1": 0.7225204580812749,
+          "loss": 0.3177789578269303
+        },
+        {
+          "accuracy": 0.7538298996302166,
+          "macro_f1": 0.768799720901637,
+          "weighted_f1": 0.7517376610905674,
+          "loss": 0.2940152196630144
+        },
+        {
+          "accuracy": 0.768621236133122,
+          "macro_f1": 0.7870151147164501,
+          "weighted_f1": 0.7686494407805069,
+          "loss": 0.29930023679250406
+        },
+        {
+          "accuracy": 0.7675647120972002,
+          "macro_f1": 0.7803479732174974,
+          "weighted_f1": 0.7603966404176525,
+          "loss": 0.3220414937422748
+        },
+        {
+          "accuracy": 0.7675647120972002,
+          "macro_f1": 0.7901438062833086,
+          "weighted_f1": 0.7654500055788118,
+          "loss": 0.3125717937003208
+        },
+        {
+          "accuracy": 0.768621236133122,
+          "macro_f1": 0.7871831815504453,
+          "weighted_f1": 0.7671553696955766,
+          "loss": 0.3132093309695962
+        }
+      ]
+    }
+  ]
+}
